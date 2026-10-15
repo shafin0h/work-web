@@ -1,0 +1,6 @@
+{
+  "name": "Terraform · Alpine Photography & Print Collections",
+  "description": "An immersive photography gallery showcase featuring Dolomites, Patagonia, Banff, and Pyrenees with smooth parallax scrolling interactions and fine art prints.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

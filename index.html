@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" class="bg-black text-white antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terraform · Alpine Photography &amp; Print Collections</title>
+    <meta name="description" content="An immersive photography gallery showcase featuring Dolomites, Patagonia, Banff, and Pyrenees with smooth parallax scrolling interactions and fine art prints." />
+    <meta property="og:title" content="Terraform · Alpine Photography &amp; Print Collections" />
+    <meta property="og:description" content="An immersive photography gallery showcase featuring Dolomites, Patagonia, Banff, and Pyrenees with smooth parallax scrolling interactions and fine art prints." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          var _origFetch = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() { return _origFetch; },
+            set: function(fn) { _origFetch = fn; },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-black text-white selection:bg-white selection:text-black min-h-screen overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
